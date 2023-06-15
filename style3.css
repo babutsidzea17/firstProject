@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "inter-300";
+  font-weight: 300;
+  src: url(./fonts/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: "inter-400";
+  font-weight: 400;
+  src: url(./fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: "inter-500";
+  font-weight: 500;
+  src: url(./fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+  font-family: "inter-600";
+  font-weight: 600;
+  src: url(./fonts/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "inter-700";
+  font-weight: 700;
+  src: url(./fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: "roboto-300";
+  font-weight: 300;
+  src: url(./fonts/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: "roboto-400";
+  font-weight: 400;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "joystix-400";
+  font-weight: 400;
+  src: url(./fonts/joystixmonospace.ttf);
+}
+
+.header-logo {
+  width: 165px;
+  height: 68px;
+}
+
+header li {
+  font-family: "inter-700";
+  list-style: none;
+  margin-left: 78px;
+}
+
+header ul {
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 68px;
+  align-items: center;
+  padding: 75px 140px;
+}
+
+header a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.fname,
+.lname {
+  font-family: "roboto-400";
+  font-size: 18px;
+  color: black;
+  margin-bottom: 8px;
+
+  margin-top: 170px;
+}
+
+.lname {
+  margin-left: 20px;
+}
+
+.fname {
+  margin-left: 140px;
+}
+
+.fname-input {
+  border: 1px solid #b5b6ba;
+  width: 177px;
+  height: 46px;
+  border-radius: 2px;
+  margin-left: 140px;
+  padding-top: 8px;
+}
+
+.fname-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.lname-input {
+  border: 1px solid #b5b6ba;
+  width: 275px;
+  height: 46px;
+  border-radius: 2px;
+  margin-left: 20px;
+}
+
+.lname-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.nms {
+  display: flex;
+}
+
+.email-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.email-lable {
+  font-family: "roboto-400";
+  font-size: 18px;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.email-input {
+  border-radius: 2px;
+  width: 472px;
+  height: 46px;
+  border: 1px solid #b5b6ba;
+}
+
+textarea {
+  resize: none;
+  border: 1px solid #b5b6ba;
+}
+
+.add-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-lable {
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.add-input {
+  width: 472px;
+  height: 153px;
+  border: 1px solid #b5b6ba;
+  margin-left: 140px;
+}
+
+button {
+  background-color: #2686b0;
+  width: 472px;
+  height: 46px;
+  color: white;
+  font-family: "roboto-400";
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 140px;
+  margin-top: 36px;
+  border: 0px solid transparent;
+  margin-bottom: 80px;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+}
+
+.how {
+  font-family: "roboto-400";
+  font-size: 30px;
+  color: black;
+
+  margin-top: 145px;
+}
+
+.pls {
+  font-family: "roboto-400";
+  font-size: 18px;
+
+  color: black;
+  margin-top: 24px;
+  width: 483px;
+  line-height: 21.09px;
+}
+
+.bookcds {
+  font-family: "inter-500";
+  font-size: 18px;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.cds {
+  margin-top: 64px !important;
+}
+
+.scnd-half {
+  margin-left: 216px;
+}
+
+.request-a {
+  color: #484848;
+  font-size: 18px;
+  font-family: "roboto-400";
+  text-decoration: none;
+}
+
+.line {
+  height: 1px;
+  width: 490px;
+  background-color: #bababa;
+  margin-top: 10.56px;
+}
+
+footer {
+  width: 100vw;
+  height: 555px;
+  background-color: #1a2349;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: "inter-300";
+  color: #eaeaea;
+  list-style: none;
+  font-size: 12px;
+}
+
+.footer-first-a {
+  color: white;
+  font-family: "inter-400";
+}
+
+.first-line {
+  height: 1px;
+  width: 177px;
+  background-color: #eaeaea;
+  margin-bottom: 14px;
+}
+
+.footer-ul {
+  margin-left: 140px;
+  padding-top: 60px;
+}
+
+footer li {
+  margin-bottom: 14px;
+}
+
+.second-line {
+  background-color: #4195ba;
+  width: 1160px;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+}
+
+.footer-div {
+  display: flex;
+}
+
+.vector-imgs {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 140px;
+  margin-top: 23px;
+}
+
+.vector-img {
+  margin-left: 12px;
+}
+
+@media (max-width: 500px) {
+  .header-logo {
+    width: 90px;
+    height: 35px;
+    margin-left: 0;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  header li {
+    font-family: "inter-400";
+    font-size: 10px;
+  }
+
+  .footer-ul{
+    justify-content: center;
+  }
+.footer-none{
+  display: none;
+}
+.vector-imgs{
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+  
+  
+}
+
+
+
+.vector-img-one, .vector-img-two{
+  margin-right: 50px;
+}
+
+.second-line{
+  width: 100%;
+}
+.scnd-half{
+  display: none;
+}
+
+.add-div{
+  display: none;
+}
+
+button{
+  
+  width: 80vw;
+  margin-left: 50px;
+  
+
+
+}
+
+.nms{
+  flex-direction: column;
+}
+.lname{
+ margin-top: 20px;
+ justify-content: center;
+ 
+}
+.lname-div{
+  margin-left: 50px;
+}
+.fname-div{
+
+  margin-left: -70px;
+
+}
+.fname-input{
+  width: 275px;
+}
+.email-input{
+  width: 275px;
+}
+.email-div{
+  margin-left: 70px;
+}
+  
+}

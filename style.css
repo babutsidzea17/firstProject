@@ -1,0 +1,541 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "inter-300";
+  font-weight: 300;
+  src: url(./fonts/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: "inter-400";
+  font-weight: 400;
+  src: url(./fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: "inter-500";
+  font-weight: 500;
+  src: url(./fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+  font-family: "inter-600";
+  font-weight: 600;
+  src: url(./fonts/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "inter-700";
+  font-weight: 700;
+  src: url(./fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: "roboto-300";
+  font-weight: 300;
+  src: url(./fonts/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: "roboto-400";
+  font-weight: 400;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "joystix-400";
+  font-weight: 400;
+  src: url(./fonts/joystixmonospace.ttf);
+}
+
+.header-logo {
+  width: 165px;
+  height: 68px;
+}
+
+header li {
+  font-family: "inter-700";
+  list-style: none;
+  margin-left: 78px;
+}
+
+header ul {
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 68px;
+  align-items: center;
+  padding: 75px 140px;
+}
+
+header a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.change-world-img {
+  width: 668px;
+  height: 446px;
+  margin-top: 77px;
+}
+
+.main-p {
+  font-family: "joystix-400";
+  font-size: 44px;
+  color: #b80a41;
+  width: 456px;
+  line-height: 52.8px;
+  margin-bottom: 60px;
+}
+.change-world {
+  display: flex;
+  justify-content: space-between;
+  height: 446px;
+  align-items: center;
+  padding: 0 140px;
+}
+
+.bottom-p {
+  width: 435px;
+  font-family: "roboto-300";
+  font-size: 14px;
+}
+
+.change-world-p {
+  margin-top: 100px;
+}
+
+.trusted-gameboy {
+  width: 100vw;
+}
+
+.main-trusted-p {
+  display: flex;
+  justify-content: center;
+  font-family: "inter-600";
+  font-size: 25px;
+  margin-top: 200px;
+}
+
+.trusted-gameboy-imgs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 72px !important;
+  margin: 0 140px;
+}
+
+.bottom-trusted-p {
+  font-family: "inter-300";
+  font-size: 20px;
+  width: 1153px;
+  line-height: 24.2px;
+  text-align: center;
+  margin-top: 83px;
+  margin-bottom: 120px;
+}
+
+.bottom-trusted-p-div {
+  display: flex;
+  justify-content: center;
+}
+
+.catalog-one,
+.catalog-two,
+.catalog-three {
+  display: flex;
+  margin-left: 140px;
+}
+
+.catalog-p {
+  width: 153px;
+  font-family: "roboto-400";
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #575656;
+}
+
+.main-books-p {
+  font-family: "joystix-400";
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.catalog-text {
+  height: 133px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 19px;
+  margin-top: 15px;
+}
+
+.catalog-book-img {
+  width: 275px;
+  height: 170px;
+}
+
+.try-free-btn {
+  font-family: "inter-700";
+  color: white;
+  font-size: 12px;
+  background-color: #2686b0;
+  border-radius: 43.5911px;
+ width: 77px ;
+ height: 23px ;
+  
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.more-catalog-btn {
+  text-decoration: none;
+  font-family: "inter-700";
+  color: #2686b0;
+  font-size: 12px;
+}
+
+.game-boy-book-img {
+  width: 563px;
+  height: 563px;
+  position: absolute;
+  top: 1440px;
+  left: 731px;
+}
+
+.try-gameboy-p {
+  font-family: "joystix-400";
+  font-size: 30px;
+  color: #b80a41;
+  margin-top: 112px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.first-free-card,
+.second-free-card,
+.third-free-card,
+.fourth-free-card {
+  border: 3px solid black;
+
+  width: 275px;
+  height: 373px;
+}
+
+.first-free-card {
+  background: linear-gradient(180.07deg, #91d0e2 14.79%, #ffb5d4 99.94%);
+}
+
+.second-free-card {
+  background: linear-gradient(
+    180.05deg,
+    #ed6aae -17.24%,
+    rgba(172, 255, 190, 0.75) 99.96%
+  );
+}
+
+.third-free-card {
+  background: linear-gradient(
+    180deg,
+    #a192fc 0%,
+    rgba(255, 149, 120, 0.65) 100%
+  );
+}
+
+.fourth-free-card {
+  background: linear-gradient(180deg, #ffd874 0%, #83b8ee 100%);
+}
+
+.card-img {
+  width: 214px;
+  height: 217px;
+  margin-top: 23px;
+}
+
+.card-img-div {
+  display: flex;
+  justify-content: center;
+}
+
+.free-card-p {
+  font-family: "inter-500";
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.bottom-card-p {
+  color: black;
+  font-family: "inter-700";
+  font-size: 18px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.card-as {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 55px;
+  height: 26px;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.try-gameboy {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.try-ol {
+  margin-left: 160px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.try-li {
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "inter-400";
+}
+
+.the-last-li-try {
+  width: 490px;
+}
+
+footer {
+  width: 100vw;
+  height: 555px;
+  background-color: #1a2349;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: "inter-300";
+  color: #eaeaea;
+  list-style: none;
+  font-size: 12px;
+}
+
+.footer-first-a {
+  color: white;
+  font-family: "inter-400";
+}
+
+.first-line {
+  height: 1px;
+  width: 177px;
+  background-color: #eaeaea;
+  margin-bottom: 14px;
+}
+
+.footer-ul {
+  margin-left: 140px;
+  padding-top: 60px;
+}
+
+footer li {
+  margin-bottom: 14px;
+}
+
+.second-line {
+  background-color: #4195ba;
+  width: 1160px;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+}
+
+.footer-div {
+  display: flex;
+}
+
+.vector-imgs {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 140px;
+  margin-top: 23px;
+}
+
+.vector-img {
+  margin-left: 12px;
+}
+
+
+@media (max-width: 500px) {
+ 
+  
+ 
+body{
+  margin-right: 0; 
+}
+
+  .header-logo {
+    width: 90px;
+    height: 35px;
+    margin-left: 0;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  header li {
+    font-family: "inter-400";
+    font-size: 10px;
+  }
+  .change-world {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .main-p {
+    font-size: 20px;
+    width: 100%;
+    padding: 0 20px;
+   
+    align-items: center;
+    text-align: center;
+    
+    line-height: 35px; 
+  }
+  .bottom-p{
+    font-size: 15px;
+    padding: 0 20px;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    
+  }
+  .change-world-img{
+    width: 100%;
+    height: 200px;
+  }
+
+  .main-trusted-p{
+    display: flex ;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .trusted-gameboy-imgs{
+    flex-direction: column;
+    margin-left: 0;
+    width: 100%;
+  }
+
+   .mob-vers{
+    display: flex;
+    
+  } 
+
+  
+
+
+.trusted-gameboy-imgs-mobile{
+   display: flex; 
+   justify-content: center;
+}
+
+
+
+  .main-books-p{
+    text-align: center;
+  }
+
+  .game-boy-book-img{
+    display: none;
+  }
+
+  .footer-ul{
+    justify-content: center;
+  }
+.footer-none{
+  display: none;
+}
+.vector-imgs{
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+  
+  
+}
+
+
+
+.vector-img-one, .vector-img-two{
+  margin-right: 50px;
+}
+
+.nxt-console{
+display: none;
+}
+
+.catalog-one{
+  margin-left: 5px;
+ 
+}
+
+.catalog-book-img{
+  width: 230px;
+}
+
+.try-gameboy-p{
+  text-align: center;
+  font-size: 25px;
+  
+}
+
+.try-gameboy{
+  flex-direction: column;
+  align-items: center;
+}
+.first-free-card,
+.second-free-card,
+.third-free-card,
+.fourth-free-card{
+  margin-bottom: 20px;
+}
+
+.the-last-li-try {
+  width: 300px;
+}
+
+.try-ol{
+  margin-left: 30px;
+  
+
+ align-items: center;
+ flex-direction: column;
+  
+}
+
+.second-line{
+  width: 100%;
+} 
+
+footer{
+  width: 100%;
+}
+
+
+
+}
